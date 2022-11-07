@@ -1,0 +1,115 @@
+/*Цвета*/
+:root {
+  --color1: #c8a2fa;
+  --color2: #63f2e6;
+}
+
+/*Градиент*/
+header,
+footer {
+  background: #1e5799;
+  background: -moz-linear-gradient(
+    -45deg,
+    var(--color1) 0%,
+    var(--color2) 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    var(--color1) 0%,
+    var(--color2) 100%
+  );
+  background: linear-gradient(135deg, var(--color1) 0%, var(--color2) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1), endColorstr=var(--color2),GradientType=1 );
+}
+
+/*Навбар*/
+.prodBtn {
+  color: var(--color2);
+  border-color: var(--color2);
+}
+.prodBtn:active {
+  color: #000;
+  background-color: var(--color2);
+  border-color: var(--color2);
+}
+
+.prodBtn:hover {
+  color: #000;
+  background-color: var(--color2);
+  border-color: var(--color2);
+}
+/*Модальное окно*/
+
+.btnClose {
+  color: #000;
+  border-color: var(--color2);
+}
+.btnClose:active {
+  color: #000;
+  background-color: var(--color2);
+  border-color: var(--color2);
+}
+
+.btnClose:hover {
+  color: #000;
+  background-color: var(--color2);
+  border-color: var(--color2);
+}
+
+.btnGood {
+  color: #000;
+  border-color: var(--color1);
+}
+.btnGood:active {
+  color: #000;
+  background-color: var(--color1);
+  border-color: var(--color1);
+}
+
+.btnGood:hover {
+  color: #000;
+  background-color: var(--color1);
+  border-color: var(--color1);
+}
+
+/*Мейн*/
+section {
+  background: #eee;
+  padding: 30px 0;
+}
+
+.flower-img {
+  width: 100%;
+  height: 350px;
+  border: solid;
+  border-radius: 20%;
+  border-color: var(--color1);
+}
+
+.first-img {
+  border: solid;
+  border-radius: 15%;
+  border-color: var(--color1);
+}
+
+.line {
+  width: 300px;
+  height: 3px;
+  background-color: var(--color1);
+  margin: 15px auto 30px;
+}
+
+/*Футер*/
+footer {
+  padding: 30px 0;
+}
+
+footer a {
+  height: 24px;
+  line-height: 1.2;
+}
+
+.linkSN {
+  padding: 0 1rem;
+  margin-left: 5px;
+}
